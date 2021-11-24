@@ -1,0 +1,23 @@
+.introduction {
+    padding: 4em 0;
+}
+.introduction__title {
+    font-size: 6rem;
+    margin-bottom: 1.7em;
+    line-height: 1.2em;
+}
+.introduction__news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.introduction__link a {
+    font-size: 2.5rem;
+    color:blue;
+}
+.introduction__link:hover {
+    text-decoration: underline;
+}
+.blue {
+    color:blue;
+}

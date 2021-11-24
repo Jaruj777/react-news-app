@@ -1,0 +1,56 @@
+.contacts {
+    padding: 4em 0;
+}
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.info-author {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.info-author__phone {
+    font-size: 3.2rem;
+    color: blue;
+}
+.info-author__item{
+    margin-bottom: 1em;
+}
+.info-author__wrap {
+    border-left: 1px solid blue;
+    padding-left: 1em;
+    margin-bottom: 1em;
+    font-size: 2.5rem;
+}
+.info-author__surname,.info-author__name {
+    font-size: 2.5rem;
+}
+.info-author__email,.info-author__desc{
+    font-size: 2rem;  
+}
+.info-author__status {
+    color: rgba(51, 61, 81, 0.5);
+    font-size: 2rem;
+}
+.info-author__status {
+    margin-bottom: 2.5rem;
+}
+.author-photo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* 320-576px XS*/
+@media screen and (max-width: 576px) {
+    .info-author {
+        width: 100%;
+    }
+    .author-photo {
+        width: 100%;
+    }
+}

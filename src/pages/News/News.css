@@ -1,0 +1,12 @@
+.news {
+    padding: 4em 0;
+}
+.news__title {
+    font-size: 6rem;
+    margin-bottom: 1.7em;
+}
+.news__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

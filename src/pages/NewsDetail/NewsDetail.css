@@ -1,0 +1,28 @@
+.detail {
+    padding: 4em 0;
+}
+.detail__wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.detail-block__left {
+   width: 30%;
+}
+.detail-block__right {
+    width: 70%;
+}
+.detail-block__title, .detail-block__url{
+    margin-bottom: 1em;
+}
+.detail-block__photo {
+    margin-bottom: 2em;
+}
+.detail-block__desc {
+    font-size: 1.8rem;
+}
+/* 320-576px XS*/
+@media screen and (max-width: 576px) {
+    .detail-block__left,.detail-block__right{
+        width: 100%;
+    }
+}

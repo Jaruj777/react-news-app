@@ -1,0 +1,42 @@
+.news__item {
+    max-width: 300px;
+    min-height: 240px;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s ease;
+}
+.news__item:hover .news__text {
+    background-color:blue;
+    color: white;
+    transition: all 0.5s ease;
+}
+.news__text {
+    border-left: 1px solid blue;
+    font-size: 2.5rem;
+    padding-left: 2em;
+}
+.news__info {
+    width: 85%;
+    position: absolute;
+    left: 25px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.news__url {
+    text-transform: lowercase;
+    color: rgba(51, 61, 81, 0.5);
+    font-size: 1.6rem;
+}
+.day {
+    font-size: 2.2rem;
+    color: #333D51;
+    margin-right: 5px;
+}
+.month {
+    font-size: 1.8rem;
+    color: rgba(51, 61, 81, 0.5);
+    margin-left: 1em;
+}
